@@ -20,19 +20,13 @@ module.exports = () => {
     entry: "./src/App.js",
     // sourcemaps
     devtool: "inline-source-map",
+    target: "web",
     // output
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "bundle.js",
-      library: "design-system",
+      library: "DesignSystem",
       libraryTarget: "umd",
-    },
-    externals: {
-      "styled-components": {
-        commonjs: "styled-components",
-        commonjs2: "styled-components",
-        amd: "styled-components",
-      },
     },
     // loaders setup
     module: {
