@@ -1,9 +1,8 @@
 {
-  "name": "design-system",
+  "name": "@pandaa880/design-system",
   "version": "1.0.0",
   "description": "Design system created using styled components",
-  "main": "",
-  "module": "dist/bundle.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
@@ -37,9 +36,16 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
   },
-  "peerDependencies": {
-    "styled-components": ">= 5"
-  }
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandaa880/design-system-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pandaa880/design-system-basic/issues"
+  },
+  "homepage": "https://github.com/pandaa880/design-system-basic#readme"
 }
